@@ -1,0 +1,23 @@
+<?php 
+
+use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implement hook_help().
+ */
+
+ function palindrome_module_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case 'help.page.palindrome_module':
+            $output = '';
+            $output .= '<h3>' .t('About') .'</h3>';
+            $output .= '<p>' . t('This is a palindrome custom module help. This app checks that strings like: level, madam, civic, radar, deified, rotor, noon, refer, reviver, racecar, and others are the same when reversed.') . '</p>';
+            return $output;
+
+            default:
+
+    }
+ }
+

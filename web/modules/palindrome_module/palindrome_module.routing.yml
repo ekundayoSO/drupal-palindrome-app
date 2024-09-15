@@ -1,0 +1,16 @@
+palindrome_module.page:
+  path: '/palindrome/{string}'
+  defaults:
+    _controller: '\Drupal\palindrome_module\Controller\PalindromeController::checkPalindrome'
+    _title: "Palindrome module"
+  requirements:
+    _permission: "access content"
+
+palindrome_module.form:
+  path: "/palindrome_module_form"
+  defaults:
+    _form: '\Drupal\palindrome_module\Form\PalindromeForm'
+    _title: "Palindrome Form"
+  requirements:
+    _permission: "access content"
+
