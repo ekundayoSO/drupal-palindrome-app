@@ -1,11 +1,10 @@
 # Palindrome checker app
 
-# Technologies
-. Drupal 11
-. lando: https://docs.lando.dev/plugins/drupal/getting-started.html
-. Docker
-. TailwindCSS
+# Technologies:
+1. Drupal 11
+2. lando: https://docs.lando.dev/plugins/drupal/getting-started.html
+3. Docker
+4. TailwindCSS
 
-<!-- <video>
-    <source src="0.mp4">
-</video> -->
+# Module Screenshot
+<img src="palindrome.png" alt="palindrome"/>
